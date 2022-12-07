@@ -130,6 +130,15 @@ body {
         width: 540px;
     }
 
+    .result_item h3 {
+        font-size: 30px !important;
+    }
+
+    .result_item p {
+        font-size: 12px !important;
+        width: 80% !important;
+    }
+
     .main_total, .product .container {
         display: flex;
         flex-direction: column;
@@ -255,6 +264,11 @@ body {
 @media(max-width: 360px) {
     .container {
         width: 100%;
+    }
+
+    .result_list {
+        display: flex;
+        flex-direction: column;
     }
 
     .nav_item {
