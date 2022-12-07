@@ -34,6 +34,14 @@ body {
         width: 940px;
     }
 
+    .product_text p {
+        width: 100% !important;
+    }
+
+    .seetings_box {
+        padding: 40px !important;
+    }
+
     .navbar img {
         width: 100px !important;
     }
@@ -77,6 +85,14 @@ body {
         width: 740px;
     }
 
+    .product_text h2 {
+        font-size: 40px !important;
+    }
+
+    .product_text p {
+        font-size: 14px !important;
+    }
+
     .main_text h2 {
         font-size: 40px !important;
     }
@@ -85,6 +101,19 @@ body {
 @media(max-width: 760px) {
     .container {
         width: 640px;
+    }
+
+    .seetings_box img {
+        width: 70px !important;
+    }
+
+    .seetings_box h3 {
+        font-size: 20px !important;
+    }
+
+    .seetings_box p {
+        font-size: 12px;
+        line-height: 20px !important;
     }
 
     .nav_item {
@@ -101,9 +130,46 @@ body {
         width: 540px;
     }
 
-    .main_total {
+    .main_total, .product .container {
         display: flex;
         flex-direction: column;
+    }
+
+    .product_box, .product_text {
+        width: 95% !important; 
+    }
+
+    .product_text h2 {
+        text-align: center;
+    }
+
+    .product_text p {
+        width: 80% !important;
+        text-align: center;
+        margin: 20px  auto !important;
+    }
+
+    .product_text a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .seetings_box {
+        margin-top: 30px;
+    }
+
+    .seetings_box img {
+        width: 100px !important;
+    }
+
+    .seetings_box h3 {
+        font-size: 30px !important;
+        width: 50%;
+    }
+
+    .seetings_box p {
+        width: 80%;
+        font-size: 16px;
     }
 
     .main_text, .main_photo {
@@ -145,6 +211,10 @@ body {
         
     }
 
+    .seetings_box h3 {
+        width: 60%;
+    }
+
     .main_text h2 {
         font-size: 30px !important;
     }
@@ -153,6 +223,24 @@ body {
 @media(max-width: 460px) {
     .container {
         width: 340px;
+    }
+
+    .product_text p {
+        width: 100% !important;
+    }
+
+    .seetings_box {
+        padding: 15px !important;
+    }
+
+    .seetings_box h3 {
+        width: 70%;
+        font-size: 20px !important;
+    }
+
+    .seetings_box p {
+        width: 90% !important;
+        font-size: 12px;
     }
 
     .main_text h2 {
@@ -275,6 +363,7 @@ main {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    padding-bottom: 80px;
 }
 
 .product_text, .product_box {
