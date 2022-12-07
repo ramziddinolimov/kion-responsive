@@ -424,3 +424,34 @@ main {
     display: flex;
     justify-content: flex-end;
 }
+
+.result {
+    padding: 150px 0;
+    background-color: #F3F7F4;
+    background-size: 100%;
+}
+
+.result_list {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.result_item h3 {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.result_item p {
+    color: #40494D;
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.result h2 {
+    font-size: 50px;
+    text-align: center;
+}
