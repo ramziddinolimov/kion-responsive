@@ -56,6 +56,23 @@ body {
         width: 840px;
     }
 
+    .kion_subtext {
+        font-size: 16px !important;
+    }
+
+    .kion_box {
+        width: 100%;
+    }
+
+    .kion_box img {
+        width: 200px !important;
+    }
+
+    .kion_icon {
+        padding: 30px !important;
+        bottom: 35% !important;
+    }
+
     .main_list img {
         width: 100px;
     }
@@ -103,6 +120,23 @@ body {
         width: 640px;
     }
 
+    .kion_text h2 {
+        font-size: 30px !important;
+    }
+
+    .kion_text p {
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
+
+    .kion_photo img {
+        width: 150px !important;
+    }
+
+    .kion_icon {
+        left: 52% !important;
+    }
+
     .seetings_box img {
         width: 70px !important;
     }
@@ -128,6 +162,46 @@ body {
 @media(max-width: 660px) {
     .container {
         width: 540px;
+    }
+
+    .kion .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kion_photo, .kion_text {
+        width: 100% !important;
+    }
+
+    .kion_text h2 {
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .kion_text .kion_subtext, .kion_text a {
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .kion_text p {
+        text-align: center !important;
+    }
+
+    .kion_text h4 {
+        text-align: center !important;
+    }
+
+    .kion_photo img {
+        width: 300px !important;
+    }
+
+    .kion_box {
+        margin-top: 30px;
+    }
+
+    .kion_icon {
+        padding: 50px !important;
+        left: 35% !important;
     }
 
     .result_item h3 {
@@ -218,6 +292,15 @@ body {
     .container {
         width: 440px;
         
+    }
+
+    .kion_photo img {
+        width: 200px !important;
+    }
+
+    .kion_icon {
+        padding: 40px !important;
+        left: 45% !important;
     }
 
     .seetings_box h3 {
@@ -523,7 +606,9 @@ main {
 
 .kion_icon {
     position: absolute;
-    transform: translate(100%, -100%);
+    bottom: 30%;
+    left: 40%;
+    /* transform: translate(100%, -100%); */
     background: rgba(94, 227, 187, 0.7);
     padding: 45px;
     border-radius: 50%;
